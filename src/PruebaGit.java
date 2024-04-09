@@ -5,8 +5,10 @@ public class PruebaGit {
 		// TODO Auto-generated method stub
 		
 		System.out.println("Hola, soy un tío guay haciendo un repositorio");
-		System.out.println("6+7="+suma(5,7));
-		System.out.println("6-7="+resta(5,7));
+		
+		System.out.println("6*7="+division(6,7));
+		System.out.println("6+7="+suma(6,7));
+		System.out.println("6-7="+resta(6,7));
 		
 	}
 	
@@ -20,6 +22,12 @@ public class PruebaGit {
 	
 	}
 	
+	public static int division (int a, int b) {
+		return a/b;
+	
+	
+	
 }
 
+}
 
